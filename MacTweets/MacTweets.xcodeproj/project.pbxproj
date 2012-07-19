@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12897C4215A82125002B3185 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12897C4115A82125002B3185 /* Cocoa.framework */; };
+		12897C4C15A82125002B3185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12897C4A15A82125002B3185 /* InfoPlist.strings */; };
+		12897C4E15A82125002B3185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12897C4D15A82125002B3185 /* main.m */; };
+		12897C5215A82126002B3185 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 12897C5015A82126002B3185 /* Credits.rtf */; };
+		12897C5515A82126002B3185 /* MacTweetsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12897C5415A82126002B3185 /* MacTweetsAppDelegate.m */; };
+		12897C5815A82126002B3185 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12897C5615A82126002B3185 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12897C3D15A82125002B3185 /* MacTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12897C4115A82125002B3185 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		12897C4415A82125002B3185 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		12897C4515A82125002B3185 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		12897C4615A82125002B3185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12897C4915A82125002B3185 /* MacTweets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacTweets-Info.plist"; sourceTree = "<group>"; };
+		12897C4B15A82125002B3185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12897C4D15A82125002B3185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12897C4F15A82126002B3185 /* MacTweets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacTweets-Prefix.pch"; sourceTree = "<group>"; };
+		12897C5115A82126002B3185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		12897C5315A82126002B3185 /* MacTweetsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacTweetsAppDelegate.h; sourceTree = "<group>"; };
+		12897C5415A82126002B3185 /* MacTweetsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacTweetsAppDelegate.m; sourceTree = "<group>"; };
+		12897C5715A82126002B3185 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12897C3A15A82125002B3185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12897C4215A82125002B3185 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12897C3215A82125002B3185 = {
+			isa = PBXGroup;
+			children = (
+				12897C4715A82125002B3185 /* MacTweets */,
+				12897C4015A82125002B3185 /* Frameworks */,
+				12897C3E15A82125002B3185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12897C3E15A82125002B3185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12897C3D15A82125002B3185 /* MacTweets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12897C4015A82125002B3185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12897C4115A82125002B3185 /* Cocoa.framework */,
+				12897C4315A82125002B3185 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12897C4315A82125002B3185 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12897C4415A82125002B3185 /* AppKit.framework */,
+				12897C4515A82125002B3185 /* CoreData.framework */,
+				12897C4615A82125002B3185 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		12897C4715A82125002B3185 /* MacTweets */ = {
+			isa = PBXGroup;
+			children = (
+				12FF37AC15AB7135004801FA /* Controller */,
+				12897C5315A82126002B3185 /* MacTweetsAppDelegate.h */,
+				12897C5415A82126002B3185 /* MacTweetsAppDelegate.m */,
+				12897C5615A82126002B3185 /* MainMenu.xib */,
+				12897C4815A82125002B3185 /* Supporting Files */,
+			);
+			path = MacTweets;
+			sourceTree = "<group>";
+		};
+		12897C4815A82125002B3185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12897C4915A82125002B3185 /* MacTweets-Info.plist */,
+				12897C4A15A82125002B3185 /* InfoPlist.strings */,
+				12897C4D15A82125002B3185 /* main.m */,
+				12897C4F15A82126002B3185 /* MacTweets-Prefix.pch */,
+				12897C5015A82126002B3185 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12FF37AC15AB7135004801FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12897C3C15A82125002B3185 /* MacTweets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12897C5B15A82126002B3185 /* Build configuration list for PBXNativeTarget "MacTweets" */;
+			buildPhases = (
+				12897C3915A82125002B3185 /* Sources */,
+				12897C3A15A82125002B3185 /* Frameworks */,
+				12897C3B15A82125002B3185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacTweets;
+			productName = MacTweets;
+			productReference = 12897C3D15A82125002B3185 /* MacTweets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12897C3415A82125002B3185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 12897C3715A82125002B3185 /* Build configuration list for PBXProject "MacTweets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12897C3215A82125002B3185;
+			productRefGroup = 12897C3E15A82125002B3185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12897C3C15A82125002B3185 /* MacTweets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12897C3B15A82125002B3185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12897C4C15A82125002B3185 /* InfoPlist.strings in Resources */,
+				12897C5215A82126002B3185 /* Credits.rtf in Resources */,
+				12897C5815A82126002B3185 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12897C3915A82125002B3185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12897C4E15A82125002B3185 /* main.m in Sources */,
+				12897C5515A82126002B3185 /* MacTweetsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12897C4A15A82125002B3185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12897C4B15A82125002B3185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12897C5015A82126002B3185 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12897C5115A82126002B3185 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		12897C5615A82126002B3185 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12897C5715A82126002B3185 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12897C5915A82126002B3185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12897C5A15A82126002B3185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12897C5C15A82126002B3185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacTweets/MacTweets-Prefix.pch";
+				INFOPLIST_FILE = "MacTweets/MacTweets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12897C5D15A82126002B3185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacTweets/MacTweets-Prefix.pch";
+				INFOPLIST_FILE = "MacTweets/MacTweets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12897C3715A82125002B3185 /* Build configuration list for PBXProject "MacTweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12897C5915A82126002B3185 /* Debug */,
+				12897C5A15A82126002B3185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12897C5B15A82126002B3185 /* Build configuration list for PBXNativeTarget "MacTweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12897C5C15A82126002B3185 /* Debug */,
+				12897C5D15A82126002B3185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12897C3415A82125002B3185 /* Project object */;
+}
